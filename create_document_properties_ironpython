@@ -1,3 +1,5 @@
+#This script creates document properties using a mapping dictionary which contains name and data type of properties which needs to be created. 
+
 from Spotfire.Dxp.Data import DataProperty
 from Spotfire.Dxp.Data import DataType
 from Spotfire.Dxp.Data import DataPropertyClass
