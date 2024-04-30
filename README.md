@@ -38,3 +38,4 @@ Spotfire Script References:
 2. https://community.spotfire.com/articles/spotfire/spotfire-data-function-library-python-and-r-scripts-for-data-analysis/
 3. https://votolab.blogspot.com/
 4. https://community.spotfire.com/articles/spotfire/javascript-for-text-areas-in-spotfire%C2%AE-r3395/
+5. https://support.revvitysignals.com/hc/en-us/sections/360010803311-Spotfire-Signals-Spotfire-Products
