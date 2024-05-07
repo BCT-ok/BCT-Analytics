@@ -12,4 +12,5 @@ Welcome to the `ironpython_scripts` directory! This directory contains IronPytho
 |---------------------|---------------------------------------------------|---------------------------------------------|
 | Hierarchical Checkbox filters - which values are checked.py |This script allows you to understand which values are checked in a hierarchical checkbox filter. It shows the general method for getting the hierarchy and the nodes of that hierarchy from the filter; navigate through the hierarchy and detect if nodes are checked. It uses a recursive function to traverse the nodes in the tree.            |  |
 ||||
+||||
 
