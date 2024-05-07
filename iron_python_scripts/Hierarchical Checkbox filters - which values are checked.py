@@ -1,5 +1,4 @@
 # Copyright © 2022. TIBCO Software Inc.  Licensed under TIBCO BSD-style license.
-# Author: Andrew Berridge, Gaia Paolini, February 2022
 
 from Spotfire.Dxp.Application.Filters import *
 from Spotfire.Dxp.Data import *
