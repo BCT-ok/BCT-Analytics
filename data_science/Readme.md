@@ -1,5 +1,7 @@
 ### data_science
 
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjbyc5vT6XpbyekdNhMw9oBWGHiBghttLfGL4-0o_yhA&s)
+
 Welcome to the `data_science` directory! This directory houses scripts for advanced data science and analytics in Spotfire.
 
 #### Rules for Adding Resources:
