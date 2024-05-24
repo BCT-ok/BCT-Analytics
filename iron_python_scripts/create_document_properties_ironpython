@@ -1,0 +1,38 @@
+#This script creates document properties using a mapping dictionary which contains name and data type of properties which needs to be created. 
+
+from Spotfire.Dxp.Data import DataProperty
+from Spotfire.Dxp.Data import DataType
+from Spotfire.Dxp.Data import DataPropertyClass
+
+# Dictionary mapping the properties to their types
+# key = Name of Document Property need to be created
+# value = Data Type (case sensetive)
+data_types = {
+    "test_doc_property" : "String",
+    "test_doc_property2" : "DateTime"
+}
+
+# Function to map string types to Spotfire DataTypes
+def get_spotfire_data_type(type_name):
+    return {
+        "String": DataType.String,
+        "Integer": DataType.Integer,
+        "DateTime": DataType.DateTime
+    }.get(type_name, DataType.String)  # Default to String if type is not mapped
+
+# Create each property based on the dictionary
+for property_name, type_name in data_types.items():
+
+    # Get the Spotfire data type
+	data_type = get_spotfire_data_type(type_name)
+	myAttributes   = DataProperty.DefaultAttributes  
+
+	# Create the property prototype
+	myProperty = DataProperty.CreateCustomPrototype(property_name, data_type,myAttributes)
+
+	# Try to add the property to the document
+	try:
+		Document.Data.Properties.AddProperty(DataPropertyClass.Document, myProperty)
+		print {myProperty}
+	except:
+		print "Already exist or error"

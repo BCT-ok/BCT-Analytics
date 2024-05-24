@@ -1,0 +1,28 @@
+Val1 = <span id="calcValue1"> <SpotfireControl id="c1959cd0a13e4b74b2791dfc50b72e70" /> </span>
+<br>
+Val2 = <span id="calcValue2"> <SpotfireControl id="942854300df640ccb2f41ccfacfa017e" /> </span>
+<br>
+<br>
+<p id='showResult'></p>
+
+<script>
+  function capture(){
+    // Get the inner text of elements and convert them to numbers
+    var val = parseFloat(document.getElementById("calcValue1").innerText);
+    var val2 = parseFloat(document.getElementById("calcValue2").innerText);
+    
+    // Check if the conversion was successful
+    if (!isNaN(val) && !isNaN(val2)) {
+        //alert(val + val2);
+		result = val+val2
+		// Update the inner text of the existing element to display the result
+        document.getElementById("showResult").innerText = "Result after addition: " + result;
+    } else {
+        alert("Error: One or both values are not valid numbers.");
+    }
+  };
+
+  // Call the capture function after a delay
+  setTimeout(capture, 500);
+
+</script>

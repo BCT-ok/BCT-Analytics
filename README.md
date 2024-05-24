@@ -1,17 +1,16 @@
 # Bahwan Cybertek Spotfire Repository
 
-Welcome to the Bahwan Cybertek Spotfire Repository! This repository is designed to serve as a centralized knowledge hub and collaboration platform for Spotfire developers within our organization. Here, employees can contribute and access a wide range of Spotfire resources, including scripts, dashboards, tips, releases, and more. By sharing our expertise and best practices, we aim to enhance productivity, streamline development, and foster innovation across projects.
+Welcome to the Bahwan Cybertek Spotfire Repository! This repository serves as a centralized knowledge hub and collaboration platform for Spotfire developers within our organization. Here, employees can contribute and access a wide range of Spotfire resources, including scripts, dashboards, tips, releases, and more. By sharing our expertise and best practices, we aim to enhance productivity, streamline development, and foster innovation across projects.
 
+## Directory Structure
 
-## Usage Guidelines
+- **ironpython_scripts**: Contains IronPython scripts for Spotfire.
+- **python_scripts**: Includes Python scripts for Spotfire data analysis.
+- **html_css_js_scripts**: Holds scripts for customizing Spotfire using HTML, CSS, and JavaScript.
+- **data_science**: Houses scripts for advanced data science and analytics in Spotfire.
+- **r_scripts**: Stores R scripts for statistical analysis and visualization in Spotfire.
 
-1. **Dashboards**: This directory contains Spotfire dashboard files (.sbdf) organized by project name. Each project folder should include the relevant dashboards developed for that project.
-
-2. **Scripts**: Here, you'll find Spotfire scripts (.r, .py) organized by project name. Whether it's custom data manipulation scripts or advanced analytics algorithms, this section is the go-to for Spotfire developers.
-
-3. **Tips_and_Tricks.md**: Share your Spotfire expertise! This markdown file is dedicated to useful tips, tricks, best practices, and troubleshooting solutions. Whether it's optimizing performance or overcoming common challenges, let's empower each other with knowledge.
-
-4. **Releases**: Keep track of Spotfire releases and updates in this directory. Each release version should have its own folder containing release notes and downloadable files. This ensures transparency and facilitates version control.
+Each directory contains a README file with the structure and description of scripts.
 
 ## Contributing
 
@@ -22,18 +21,17 @@ Welcome to the Bahwan Cybertek Spotfire Repository! This repository is designed 
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE), promoting openness, collaboration, and sharing.
+This repository is licensed under the MIT License, promoting openness, collaboration, and sharing.
 
 ## About Bahwan Cybertek
 
 Bahwan Cybertek is a globally recognized technology solutions provider, specializing in delivering innovative software products and services. With our expertise in Spotfire, we empower businesses to unlock the full potential of their data through advanced analytics and visualization solutions.
 
-For inquiries, contact us at [info@bahwancybertek.com](mailto:info@bahwancybertek.com).
-
-## Happy Spotfiring! 🚀📊
-
+Happy Spotfiring! 🚀📊
 
 Spotfire Script References: 
 1. https://community.spotfire.com/articles/spotfire/ironpython-scripting-in-spotfire/
 2. https://community.spotfire.com/articles/spotfire/spotfire-data-function-library-python-and-r-scripts-for-data-analysis/
 3. https://votolab.blogspot.com/
+4. https://community.spotfire.com/articles/spotfire/javascript-for-text-areas-in-spotfire%C2%AE-r3395/
+5. https://support.revvitysignals.com/hc/en-us/sections/360010803311-Spotfire-Signals-Spotfire-Products

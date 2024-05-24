@@ -1,0 +1,29 @@
+<! -- 
+  This code show how to change text color of the differnt element using calulcate value. 
+  Though similar logic can be used to modify any addition properties/attribute or functionality with changes in javascript
+-->
+
+<span id="calcValue">
+  <SpotfireControl id="d115e91050174a999938fd1b146729ee" />
+</span>
+<br>
+<div id="myElem" style="color:red">My Color is dynamic!!</div>
+
+<script>
+  function capture(){
+	//read value of the element mydiv
+	val = document.getElementById("calcValue").innerText
+	elem = document.getElementById("myElem")
+	//convert to integer
+	val = parseInt(val)
+	//set attribute of other elements based on calulated value
+	if(val < 50){
+		 elem.setAttribute("style", "color: yellow;")
+		}
+	else{
+		elem.setAttribute("style", "color: lightgreen;")
+		};
+  };
+  setTimeout(() => {  capture(); }, 500);
+</script>
+   
